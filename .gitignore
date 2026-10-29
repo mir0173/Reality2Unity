@@ -107,3 +107,54 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Repository-wide IDE settings
+.idea/
+
+# Python virtual environments and generated caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.ipynb_checkpoints/
+*.egg-info/
+/python/**/build/
+/python/**/dist/
+/python/**/.eggs/
+
+# Unity projects live under unity/ (including nested project folders)
+/unity/**/[Ll]ibrary/
+/unity/**/[Tt]emp/
+/unity/**/[Oo]bj/
+/unity/**/[Bb]uild/
+/unity/**/[Bb]uilds/
+/unity/**/[Ll]ogs/
+/unity/**/[Uu]ser[Ss]ettings/
+/unity/**/[Mm]emoryCaptures/
+/unity/**/[Rr]ecordings/
+/unity/**/[Aa]ssets/Plugins/Editor/JetBrains*
+/unity/**/ServerData
+/unity/**/[Aa]ssets/StreamingAssets/aa*
+/unity/**/[Aa]ssets/AddressableAssetsData/link.xml*
+/unity/**/[Aa]ssets/Addressables_Temp*
+/unity/**/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/unity/**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/unity/**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/unity/**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/unity/**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+/unity/**/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/unity/**/UIElementsSchema/
+/unity/**/[Aa]ssets/[Ss]ceneDependencyCache*
