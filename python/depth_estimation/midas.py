@@ -4,13 +4,15 @@ import cv2
 import torch
 
 
+
+
 def load_midas_model():
     model_type = "DPT_Large"
-    midas = torch.hub.load("intel-isl/MiDaS", model_type)
+    midas = torch.hub.load("intel-isl/MiDaS", model_type, trust_repo=True)
     midas.eval()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     midas.to(device)
-    transforms = torch.hub.load("intel-isl/MiDaS", "transforms")
+    transforms = torch.hub.load("intel-isl/MiDaS", "transforms", trust_repo=True)
     transform = transforms.dpt_transform if "DPT" in model_type else transforms.small_transform
     return midas, transform, device
 
